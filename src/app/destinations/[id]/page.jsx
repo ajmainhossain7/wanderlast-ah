@@ -1,4 +1,3 @@
-// import BookingCard from "@/components/BookingCard";
 import BookingCard from "@/components/BookingCard";
 import { DeleteAlert } from "@/components/DeleteAlert";
 import { EditModal } from "@/components/EditModal";
