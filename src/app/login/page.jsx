@@ -1,5 +1,6 @@
 "use client";
 
+import { authClient } from "@/lib/auth-client";
 import { Card, Separator } from "@heroui/react";
 import {
   Button,
@@ -10,7 +11,6 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
-import { authClient } from "@/lib/auth-client";
 import { redirect } from "next/navigation";
 import { FcGoogle } from "react-icons/fc";
 
